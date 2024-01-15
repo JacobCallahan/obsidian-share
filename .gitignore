@@ -1,0 +1,7 @@
+# files we likely don't want to share
+.obsidian/bookmarks.json
+.obsidian/workspace*.json
+.obsidian/plugins/recent-files-obsidian/data.json
+
+# ignore any sync conflicts
+*sync-conflict*
