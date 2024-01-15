@@ -16,6 +16,18 @@ These files typically consist of plugins and their configuration.
 
 Like templates, you can copy these directly into your .obsidian directory, then tailor as desired.
 
+### Notable Config Changes
+
+**Hotkeys**
+- Alt + ArrowUp: Moves the current line up
+- Alt + ArrowDown: Moves the current line down
+
+### Plugins
+See the .obsidian/plugins directory's README.md for a description of each plugin and notable config changes.
+
+### CSS Snippets
+See the .obsidian/snippets directory's README.md for a description of each plugin and notable config changes.
+
 ## Automatic Git Backups
 To perform automatic git backups, configure your .obsidian directory to be a git directory.
 
