@@ -1,3 +1,4 @@
+#! /usr/bin/python
 """A script to remove temporary files from a directory.
 
 The designed use of this script is to periodically be ran by a cron job to remove temporary files
@@ -20,7 +21,7 @@ from datetime import datetime
 
 CHECK_TIME = datetime.now()
 TMP_DIRECTORY = Path("temp")
-DEFAULT_EXPIRATION = 7
+DEFAULT_EXPIRATION = 1
 TIME_DICT = {"weekly": 7, "monthly": 31, "quarterly": 123, "yearly": 365}
 
 
